@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data — never commit raw datasets
+data/
+*.csv
+*.xlsx
+
+# Secrets
+.env
